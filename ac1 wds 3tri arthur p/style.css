@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, darkgrey);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/023/247/291/non_2x/classic-world-video-game-background-free-vector.jpg);
+}
+.card {
+  background-color:black;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  width: 300px;
+  background-image: url(https://img.freepik.com/free-vector/futuristic-video-game-controller-background-with-text-space_1017-54730.jpg?semt=ais_incoming&w=740&q=80);
+  
+}
+ 
+.card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin-bottom: 15px;
+}
+ 
+.card h1 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px #000000;
+}
+ 
+.card h2 {
+  margin: 0 0 15px;
+  font-size: 18px;
+  color: white;
+    -webkit-text-stroke: 0.5px #000000;
+}
+ 
+.card p {
+  font-size: 16px;
+  color: white;
+    -webkit-text-stroke: 0.5px #000000;
+}
+ 
+.card:hover {
+  background-color:purple;
+  transform: scale(1.1);
+  box-shadow: 0 0 1000px black;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/016/962/686/small_2x/alien-planet-landscape-for-space-game-background-free-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
